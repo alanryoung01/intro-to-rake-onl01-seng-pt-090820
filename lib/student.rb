@@ -51,8 +51,4 @@ class Student
     DB[:conn].execute(sql)
   end
 
-  task :hello do
-  puts "hello from Rake!"
-end
-
 end
